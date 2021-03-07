@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Actors">
+      <UniqueIdentifier>{942d4659-4d97-4c98-8c0f-10e8e59bf607}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Devices">
+      <UniqueIdentifier>{2a2b6238-2b78-4da6-be80-b00da3c9b8be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Devices\Displays">
+      <UniqueIdentifier>{c20ef852-07af-464f-9b27-8845bf2934de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Devices\Gpio">
+      <UniqueIdentifier>{02acea78-1696-44ed-915a-885dd46f9afc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Esp">
+      <UniqueIdentifier>{5c6f7f17-fddc-4bc5-a4f8-b5c7c08f5789}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{1acf90b2-5e99-431f-a397-e6b3db06ff8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\WiFi">
+      <UniqueIdentifier>{63db8ce2-aa15-40ab-bf9d-f308a19753a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sensors">
+      <UniqueIdentifier>{6ad467da-fdbb-4e22-99e4-ef754facddc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sensors\Climate">
+      <UniqueIdentifier>{7f64b98f-7e73-4b2f-9f07-d3f72025455c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sensors\Flow">
+      <UniqueIdentifier>{5e99b26d-899b-41ae-8d30-b8f17efde290}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sensors\Temperature">
+      <UniqueIdentifier>{fae399f2-8deb-42d6-8795-6062e5c4b0b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Web">
+      <UniqueIdentifier>{96ee1810-f992-48df-9b7a-a38cd641adf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Web\Templates">
+      <UniqueIdentifier>{4e64de25-2ca1-4183-9003-ea8a296fe085}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Actors\RgbLeds.cpp">
+      <Filter>Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Devices\Displays\Display.cpp">
+      <Filter>Devices\Displays</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Devices\Gpio\AnalogPin.cpp">
+      <Filter>Devices\Gpio</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Devices\Gpio\InputPin.cpp">
+      <Filter>Devices\Gpio</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Devices\Gpio\OutputPin.cpp">
+      <Filter>Devices\Gpio</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Devices\Gpio\PwmPin.cpp">
+      <Filter>Devices\Gpio</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Network\WiFi\WiFiConnection.cpp">
+      <Filter>Network\WiFi</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sensors\Climate\Bme280.cpp">
+      <Filter>Sensors\Climate</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sensors\Flow\LiquidFlowMeter.cpp">
+      <Filter>Sensors\Flow</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sensors\Temperature\KTY-81-210.cpp">
+      <Filter>Sensors\Temperature</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sensors\Temperature\Pt1000.cpp">
+      <Filter>Sensors\Temperature</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sensors\Temperature\Thermometer.cpp">
+      <Filter>Sensors\Temperature</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sensors\Temperature\DS18B20.cpp">
+      <Filter>Sensors\Temperature</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Devices\OneWire.cpp">
+      <Filter>Devices</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)System.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Web\Templates\NetworkParagraph.cpp">
+      <Filter>Web\Templates</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Web\Templates\SystemParagraph.cpp">
+      <Filter>Web\Templates</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Actors\RgbLeds.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Devices\Displays\Display.h">
+      <Filter>Devices\Displays</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Devices\Displays\Oled128x64.h">
+      <Filter>Devices\Displays</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Devices\Gpio\AnalogPin.h">
+      <Filter>Devices\Gpio</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Devices\Gpio\ImpulsePin.h">
+      <Filter>Devices\Gpio</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Devices\Gpio\InputPin.h">
+      <Filter>Devices\Gpio</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Devices\Gpio\OutputPin.h">
+      <Filter>Devices\Gpio</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Devices\Gpio\PwmPin.h">
+      <Filter>Devices\Gpio</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Network\WiFi\WiFiConnection.h">
+      <Filter>Network\WiFi</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Sensors\Climate\Bme280.h">
+      <Filter>Sensors\Climate</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Sensors\Flow\LiquidFlowMeter.h">
+      <Filter>Sensors\Flow</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Sensors\Temperature\KTY-81-210.h">
+      <Filter>Sensors\Temperature</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Sensors\Temperature\Pt1000.h">
+      <Filter>Sensors\Temperature</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Sensors\Temperature\Thermometer.h">
+      <Filter>Sensors\Temperature</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Sensors\Temperature\DS18B20.h">
+      <Filter>Sensors\Temperature</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Devices\OneWire.h">
+      <Filter>Devices</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)System.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Web\Templates\NetworkParagraph.h">
+      <Filter>Web\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Web\Templates\SystemParagraph.h">
+      <Filter>Web\Templates</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
